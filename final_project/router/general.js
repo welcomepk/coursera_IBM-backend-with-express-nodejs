@@ -66,7 +66,6 @@ public_users.get('/author/:author', async function (req, res) {
 
   } catch (error) {
     console.log(error);
-
     return res.status(500).send('Internal Server error')
   }
 
